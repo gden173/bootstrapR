@@ -79,10 +79,10 @@ build:
 	R CMD build .
 
 check:
-	R CMD check ${PACKAGE_NAME}_0.0.0.9000.tar.gz
+	R CMD check ${PACKAGE_NAME}_*.tar.gz
 
 install:
-	R CMD INSTALL ${PACKAGE_NAME}_0.0.0.9000.tar.gz
+	R CMD INSTALL ${PACKAGE_NAME}_*.tar.gz
 
 FF
 
